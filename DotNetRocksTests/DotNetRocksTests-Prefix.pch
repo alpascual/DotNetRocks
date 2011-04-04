@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DotNetRocksTests' target in the 'DotNetRocksTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

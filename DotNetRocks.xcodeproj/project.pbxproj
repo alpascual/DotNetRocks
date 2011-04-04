@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88AF1775134A4BF1008DBF18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF1774134A4BF1008DBF18 /* UIKit.framework */; };
+		88AF1777134A4BF1008DBF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF1776134A4BF1008DBF18 /* Foundation.framework */; };
+		88AF1779134A4BF1008DBF18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF1778134A4BF1008DBF18 /* CoreGraphics.framework */; };
+		88AF177F134A4BF1008DBF18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88AF177D134A4BF1008DBF18 /* InfoPlist.strings */; };
+		88AF1782134A4BF1008DBF18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF1781134A4BF1008DBF18 /* main.m */; };
+		88AF1785134A4BF1008DBF18 /* DotNetRocksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF1784134A4BF1008DBF18 /* DotNetRocksAppDelegate.m */; };
+		88AF1789134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF1788134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.m */; };
+		88AF178C134A4BF1008DBF18 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF178A134A4BF1008DBF18 /* MainWindow_iPhone.xib */; };
+		88AF1790134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF178F134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.m */; };
+		88AF1793134A4BF1008DBF18 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF1791134A4BF1008DBF18 /* MainWindow_iPad.xib */; };
+		88AF179A134A4BF1008DBF18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF1774134A4BF1008DBF18 /* UIKit.framework */; };
+		88AF179B134A4BF1008DBF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF1776134A4BF1008DBF18 /* Foundation.framework */; };
+		88AF179C134A4BF1008DBF18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF1778134A4BF1008DBF18 /* CoreGraphics.framework */; };
+		88AF17A4134A4BF1008DBF18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88AF17A2134A4BF1008DBF18 /* InfoPlist.strings */; };
+		88AF17A7134A4BF1008DBF18 /* DotNetRocksTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 88AF17A6134A4BF1008DBF18 /* DotNetRocksTests.h */; };
+		88AF17A9134A4BF1008DBF18 /* DotNetRocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF17A8134A4BF1008DBF18 /* DotNetRocksTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88AF179D134A4BF1008DBF18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88AF1767134A4BF0008DBF18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88AF176F134A4BF1008DBF18;
+			remoteInfo = DotNetRocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88AF1770134A4BF1008DBF18 /* DotNetRocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotNetRocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AF1774134A4BF1008DBF18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88AF1776134A4BF1008DBF18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88AF1778134A4BF1008DBF18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88AF177C134A4BF1008DBF18 /* DotNetRocks-Info.plist */ = {isa = PBXFileReference; path = "DotNetRocks-Info.plist"; sourceTree = "<group>"; };
+		88AF177E134A4BF1008DBF18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88AF1780134A4BF1008DBF18 /* DotNetRocks-Prefix.pch */ = {isa = PBXFileReference; path = "DotNetRocks-Prefix.pch"; sourceTree = "<group>"; };
+		88AF1781134A4BF1008DBF18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88AF1783134A4BF1008DBF18 /* DotNetRocksAppDelegate.h */ = {isa = PBXFileReference; path = DotNetRocksAppDelegate.h; sourceTree = "<group>"; };
+		88AF1784134A4BF1008DBF18 /* DotNetRocksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotNetRocksAppDelegate.m; sourceTree = "<group>"; };
+		88AF1787134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = DotNetRocksAppDelegate_iPhone.h; path = iPhone/DotNetRocksAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		88AF1788134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DotNetRocksAppDelegate_iPhone.m; path = iPhone/DotNetRocksAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		88AF178B134A4BF1008DBF18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		88AF178E134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.h */ = {isa = PBXFileReference; name = DotNetRocksAppDelegate_iPad.h; path = iPad/DotNetRocksAppDelegate_iPad.h; sourceTree = "<group>"; };
+		88AF178F134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DotNetRocksAppDelegate_iPad.m; path = iPad/DotNetRocksAppDelegate_iPad.m; sourceTree = "<group>"; };
+		88AF1792134A4BF1008DBF18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		88AF1799134A4BF1008DBF18 /* DotNetRocksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotNetRocksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AF17A1134A4BF1008DBF18 /* DotNetRocksTests-Info.plist */ = {isa = PBXFileReference; path = "DotNetRocksTests-Info.plist"; sourceTree = "<group>"; };
+		88AF17A3134A4BF1008DBF18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88AF17A5134A4BF1008DBF18 /* DotNetRocksTests-Prefix.pch */ = {isa = PBXFileReference; path = "DotNetRocksTests-Prefix.pch"; sourceTree = "<group>"; };
+		88AF17A6134A4BF1008DBF18 /* DotNetRocksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DotNetRocksTests.h; sourceTree = "<group>"; };
+		88AF17A8134A4BF1008DBF18 /* DotNetRocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotNetRocksTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88AF176D134A4BF1008DBF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF1775134A4BF1008DBF18 /* UIKit.framework in Frameworks */,
+				88AF1777134A4BF1008DBF18 /* Foundation.framework in Frameworks */,
+				88AF1779134A4BF1008DBF18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88AF1795134A4BF1008DBF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF179A134A4BF1008DBF18 /* UIKit.framework in Frameworks */,
+				88AF179B134A4BF1008DBF18 /* Foundation.framework in Frameworks */,
+				88AF179C134A4BF1008DBF18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88AF1765134A4BF0008DBF18 = {
+			isa = PBXGroup;
+			children = (
+				88AF177A134A4BF1008DBF18 /* DotNetRocks */,
+				88AF179F134A4BF1008DBF18 /* DotNetRocksTests */,
+				88AF1773134A4BF1008DBF18 /* Frameworks */,
+				88AF1771134A4BF1008DBF18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88AF1771134A4BF1008DBF18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88AF1770134A4BF1008DBF18 /* DotNetRocks.app */,
+				88AF1799134A4BF1008DBF18 /* DotNetRocksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AF1773134A4BF1008DBF18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88AF1774134A4BF1008DBF18 /* UIKit.framework */,
+				88AF1776134A4BF1008DBF18 /* Foundation.framework */,
+				88AF1778134A4BF1008DBF18 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88AF177A134A4BF1008DBF18 /* DotNetRocks */ = {
+			isa = PBXGroup;
+			children = (
+				88AF1783134A4BF1008DBF18 /* DotNetRocksAppDelegate.h */,
+				88AF1784134A4BF1008DBF18 /* DotNetRocksAppDelegate.m */,
+				88AF1786134A4BF1008DBF18 /* iPhone */,
+				88AF178D134A4BF1008DBF18 /* iPad */,
+				88AF177B134A4BF1008DBF18 /* Supporting Files */,
+			);
+			path = DotNetRocks;
+			sourceTree = "<group>";
+		};
+		88AF177B134A4BF1008DBF18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88AF177C134A4BF1008DBF18 /* DotNetRocks-Info.plist */,
+				88AF177D134A4BF1008DBF18 /* InfoPlist.strings */,
+				88AF1780134A4BF1008DBF18 /* DotNetRocks-Prefix.pch */,
+				88AF1781134A4BF1008DBF18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88AF1786134A4BF1008DBF18 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				88AF1787134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.h */,
+				88AF1788134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.m */,
+				88AF178A134A4BF1008DBF18 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		88AF178D134A4BF1008DBF18 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				88AF178E134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.h */,
+				88AF178F134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.m */,
+				88AF1791134A4BF1008DBF18 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		88AF179F134A4BF1008DBF18 /* DotNetRocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				88AF17A6134A4BF1008DBF18 /* DotNetRocksTests.h */,
+				88AF17A8134A4BF1008DBF18 /* DotNetRocksTests.m */,
+				88AF17A0134A4BF1008DBF18 /* Supporting Files */,
+			);
+			path = DotNetRocksTests;
+			sourceTree = "<group>";
+		};
+		88AF17A0134A4BF1008DBF18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88AF17A1134A4BF1008DBF18 /* DotNetRocksTests-Info.plist */,
+				88AF17A2134A4BF1008DBF18 /* InfoPlist.strings */,
+				88AF17A5134A4BF1008DBF18 /* DotNetRocksTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88AF176F134A4BF1008DBF18 /* DotNetRocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AF17AC134A4BF1008DBF18 /* Build configuration list for PBXNativeTarget "DotNetRocks" */;
+			buildPhases = (
+				88AF176C134A4BF1008DBF18 /* Sources */,
+				88AF176D134A4BF1008DBF18 /* Frameworks */,
+				88AF176E134A4BF1008DBF18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotNetRocks;
+			productName = DotNetRocks;
+			productReference = 88AF1770134A4BF1008DBF18 /* DotNetRocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88AF1798134A4BF1008DBF18 /* DotNetRocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AF17AF134A4BF1008DBF18 /* Build configuration list for PBXNativeTarget "DotNetRocksTests" */;
+			buildPhases = (
+				88AF1794134A4BF1008DBF18 /* Sources */,
+				88AF1795134A4BF1008DBF18 /* Frameworks */,
+				88AF1796134A4BF1008DBF18 /* Resources */,
+				88AF1797134A4BF1008DBF18 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88AF179E134A4BF1008DBF18 /* PBXTargetDependency */,
+			);
+			name = DotNetRocksTests;
+			productName = DotNetRocksTests;
+			productReference = 88AF1799134A4BF1008DBF18 /* DotNetRocksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88AF1767134A4BF0008DBF18 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 88AF176A134A4BF0008DBF18 /* Build configuration list for PBXProject "DotNetRocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88AF1765134A4BF0008DBF18;
+			productRefGroup = 88AF1771134A4BF1008DBF18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88AF176F134A4BF1008DBF18 /* DotNetRocks */,
+				88AF1798134A4BF1008DBF18 /* DotNetRocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88AF176E134A4BF1008DBF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF177F134A4BF1008DBF18 /* InfoPlist.strings in Resources */,
+				88AF178C134A4BF1008DBF18 /* MainWindow_iPhone.xib in Resources */,
+				88AF1793134A4BF1008DBF18 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88AF1796134A4BF1008DBF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF17A4134A4BF1008DBF18 /* InfoPlist.strings in Resources */,
+				88AF17A7134A4BF1008DBF18 /* DotNetRocksTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88AF1797134A4BF1008DBF18 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88AF176C134A4BF1008DBF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF1782134A4BF1008DBF18 /* main.m in Sources */,
+				88AF1785134A4BF1008DBF18 /* DotNetRocksAppDelegate.m in Sources */,
+				88AF1789134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPhone.m in Sources */,
+				88AF1790134A4BF1008DBF18 /* DotNetRocksAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88AF1794134A4BF1008DBF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF17A9134A4BF1008DBF18 /* DotNetRocksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88AF179E134A4BF1008DBF18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88AF176F134A4BF1008DBF18 /* DotNetRocks */;
+			targetProxy = 88AF179D134A4BF1008DBF18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88AF177D134A4BF1008DBF18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF177E134A4BF1008DBF18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88AF178A134A4BF1008DBF18 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF178B134A4BF1008DBF18 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		88AF1791134A4BF1008DBF18 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF1792134A4BF1008DBF18 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		88AF17A2134A4BF1008DBF18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF17A3134A4BF1008DBF18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88AF17AA134A4BF1008DBF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88AF17AB134A4BF1008DBF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88AF17AD134A4BF1008DBF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DotNetRocks/DotNetRocks-Prefix.pch";
+				INFOPLIST_FILE = "DotNetRocks/DotNetRocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88AF17AE134A4BF1008DBF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DotNetRocks/DotNetRocks-Prefix.pch";
+				INFOPLIST_FILE = "DotNetRocks/DotNetRocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88AF17B0134A4BF1008DBF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DotNetRocks.app/DotNetRocks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DotNetRocksTests/DotNetRocksTests-Prefix.pch";
+				INFOPLIST_FILE = "DotNetRocksTests/DotNetRocksTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		88AF17B1134A4BF1008DBF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DotNetRocks.app/DotNetRocks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DotNetRocksTests/DotNetRocksTests-Prefix.pch";
+				INFOPLIST_FILE = "DotNetRocksTests/DotNetRocksTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88AF176A134A4BF0008DBF18 /* Build configuration list for PBXProject "DotNetRocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF17AA134A4BF1008DBF18 /* Debug */,
+				88AF17AB134A4BF1008DBF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88AF17AC134A4BF1008DBF18 /* Build configuration list for PBXNativeTarget "DotNetRocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF17AD134A4BF1008DBF18 /* Debug */,
+				88AF17AE134A4BF1008DBF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88AF17AF134A4BF1008DBF18 /* Build configuration list for PBXNativeTarget "DotNetRocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF17B0134A4BF1008DBF18 /* Debug */,
+				88AF17B1134A4BF1008DBF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88AF1767134A4BF0008DBF18 /* Project object */;
+}
