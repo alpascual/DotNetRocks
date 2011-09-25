@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "DotNetRocksAppDelegate.h"
 
-@interface DotNetRocksAppDelegate_iPad : DotNetRocksAppDelegate {
+#import "iPadMainController.h"
+
+@interface DotNetRocksAppDelegate_iPad : DotNetRocksAppDelegate  {
     
+    iPadMainController *mainScreen;
 }
 
+@property (nonatomic,retain) iPadMainController *mainScreen;
 @end

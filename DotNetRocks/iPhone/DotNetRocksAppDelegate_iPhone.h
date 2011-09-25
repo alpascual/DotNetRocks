@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "DotNetRocksAppDelegate.h"
+#import "ShowListController.h"
 
 @interface DotNetRocksAppDelegate_iPhone : DotNetRocksAppDelegate {
     
+    ShowListController *mainScreen;
 }
 
+@property (nonatomic,retain) ShowListController *mainScreen;
 @end
